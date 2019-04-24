@@ -14,7 +14,7 @@ Library updated with functionality for the Alexa [v20160207 API version](https:/
 
 ### Sample Application
 
-Curious about what the library can do? A quick example of the three main functions (live recorded audio events, text-to-speech intents, prerecorded audio intents), plus sample code can be found in the [sample app](https://play.google.com/store/apps/details?id=com.willblaschko.android.alexavoicelibrary)
+Curious about what the library can do? A quick example of the three main functions (live recorded audio events, text-to-speech intents, prerecorded audio intents), plus sample code can be found in the [sample app](https://play.google.com/store/apps/details?id=alex.android.alexavoicelibrary)
 
 #### Compiling and running the sample application
 * Follow the process for creating a connected device detailed at the Amazon link at the top of the Readme.
@@ -24,7 +24,7 @@ Curious about what the library can do? A quick example of the three main functio
 
 ### Production Application
 
-Or see what the library can do when converted into a full package, complete with optional always-on listener: [Alexa Listens](https://play.google.com/store/apps/details?id=com.willblaschko.android.alexalistens)
+Or see what the library can do when converted into a full package, complete with optional always-on listener: [Alexa Listens](https://play.google.com/store/apps/details?id=alex.android.alexalistens)
 
 ## Using the Library
 
@@ -49,7 +49,7 @@ allprojects {
 ```
 * Add the library to your imports (application-level build.gradle):
 ```java
-compile 'com.willblaschko.android.alexa:AlexaAndroid:2.4.2'
+compile 'alex.android.alexa:AlexaAndroid:2.4.2'
 ```
 * Follow the process for creating a connected device detailed in the Amazon link at the top of the Readme.
 * Follow the instructions for adding your key and preparing the Login with Amazon activity from the ['Login with Amazon' Android Project guide](https://developer.amazon.com/public/apis/engage/login-with-amazon/docs/create_android_project.html)
